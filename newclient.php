@@ -27,19 +27,19 @@
     <h2>Add New Client</h2>
     <form id="registration-form" action="#" method="POST">
       <label for="first-name">First Name</label>
-      <input type="text" id="fname" name="fname" required>
+      <input type="text" id="fname" name="fname" data-validate = "Valid First name is required">
 
       <label for="middle-name">Middle Name</label>
-      <input type="text" id="Mname" name="mname">
+      <input type="text" id="Mname" name="mname" data-validate = "Valid Middle name is required">
 
       <label for="last-name">Last Name</label>
-      <input type="text" id="Lname" name="lname" required>
+      <input type="text" id="Lname" name="lname" data-validate = "Valid Last name is required">
 
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+      <input type="email" id="email" name="email" data-validate = "Valid email is required: abc@gmail.com">
 
       <label for="phone-number">Phone Number</label>
-      <input type="tel" id="phone" name="Phone" required>
+      <input type="tel" id="phone" name="Phone" data-validate = "Valid phone number is required">
 
       <button type="submit" class="btn" name="submit" id="submitbtn">Save</button>
       <button class="back"><a href="list.php">back</a></button>
